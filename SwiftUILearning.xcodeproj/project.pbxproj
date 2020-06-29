@@ -16,6 +16,10 @@
 		38D25C5F24A9D26E00AD202F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D25C5D24A9D26E00AD202F /* LaunchScreen.storyboard */; };
 		38D25C6A24A9D26E00AD202F /* SwiftUILearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D25C6924A9D26E00AD202F /* SwiftUILearningTests.swift */; };
 		38D25C7524A9D26E00AD202F /* SwiftUILearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D25C7424A9D26E00AD202F /* SwiftUILearningUITests.swift */; };
+		38D25C8624A9D2E600AD202F /* TextSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D25C8524A9D2E600AD202F /* TextSwiftUIView.swift */; };
+		38D25C8B24A9D65400AD202F /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D25C8A24A9D65400AD202F /* ContentViewModel.swift */; };
+		38D25C8E24A9D75E00AD202F /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D25C8D24A9D75E00AD202F /* ContentModel.swift */; };
+		38D25C9124A9D81700AD202F /* ContentEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D25C9024A9D81700AD202F /* ContentEnum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		38D25C7024A9D26E00AD202F /* SwiftUILearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUILearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D25C7424A9D26E00AD202F /* SwiftUILearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningUITests.swift; sourceTree = "<group>"; };
 		38D25C7624A9D26E00AD202F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38D25C8524A9D2E600AD202F /* TextSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSwiftUIView.swift; sourceTree = "<group>"; };
+		38D25C8A24A9D65400AD202F /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		38D25C8D24A9D75E00AD202F /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		38D25C9024A9D81700AD202F /* ContentEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentEnum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +109,8 @@
 		38D25C4E24A9D26B00AD202F /* SwiftUILearning */ = {
 			isa = PBXGroup;
 			children = (
-				38D25C4F24A9D26B00AD202F /* AppDelegate.swift */,
-				38D25C5124A9D26B00AD202F /* SceneDelegate.swift */,
-				38D25C5624A9D26B00AD202F /* ContentView.swift */,
+				38D25C8324A9D29000AD202F /* Components */,
+				38D25C8224A9D28300AD202F /* AppDelegate */,
 				38D25C5824A9D26E00AD202F /* Assets.xcassets */,
 				38D25C5D24A9D26E00AD202F /* LaunchScreen.storyboard */,
 				38D25C6024A9D26E00AD202F /* Info.plist */,
@@ -137,6 +144,75 @@
 				38D25C7624A9D26E00AD202F /* Info.plist */,
 			);
 			path = SwiftUILearningUITests;
+			sourceTree = "<group>";
+		};
+		38D25C8224A9D28300AD202F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				38D25C4F24A9D26B00AD202F /* AppDelegate.swift */,
+				38D25C5124A9D26B00AD202F /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		38D25C8324A9D29000AD202F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				38D25C8724A9D62900AD202F /* ContentView */,
+				38D25C8424A9D29B00AD202F /* Text */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		38D25C8424A9D29B00AD202F /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				38D25C8524A9D2E600AD202F /* TextSwiftUIView.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		38D25C8724A9D62900AD202F /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				38D25C8F24A9D80900AD202F /* Enum */,
+				38D25C8C24A9D75100AD202F /* Model */,
+				38D25C8824A9D63900AD202F /* View */,
+				38D25C8924A9D64000AD202F /* ViewModel */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		38D25C8824A9D63900AD202F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				38D25C5624A9D26B00AD202F /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		38D25C8924A9D64000AD202F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				38D25C8A24A9D65400AD202F /* ContentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		38D25C8C24A9D75100AD202F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				38D25C8D24A9D75E00AD202F /* ContentModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		38D25C8F24A9D80900AD202F /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				38D25C9024A9D81700AD202F /* ContentEnum.swift */,
+			);
+			path = Enum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +347,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				38D25C5524A9D26B00AD202F /* SwiftUILearning.xcdatamodeld in Sources */,
+				38D25C8624A9D2E600AD202F /* TextSwiftUIView.swift in Sources */,
+				38D25C8B24A9D65400AD202F /* ContentViewModel.swift in Sources */,
 				38D25C5024A9D26B00AD202F /* AppDelegate.swift in Sources */,
+				38D25C9124A9D81700AD202F /* ContentEnum.swift in Sources */,
 				38D25C5724A9D26B00AD202F /* ContentView.swift in Sources */,
+				38D25C8E24A9D75E00AD202F /* ContentModel.swift in Sources */,
 				38D25C5224A9D26B00AD202F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,8 +518,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUILearning/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUILearning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -448,6 +529,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.shahrukhs.SwiftUILearning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -457,8 +539,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUILearning/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUILearning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -467,6 +550,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.shahrukhs.SwiftUILearning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
