@@ -8,6 +8,8 @@
 
 import Foundation
 
+// MARK: - Enum for ComponentType
 enum ComponentType: String {
     case text = "Text"
+    case image = "Image"
 }

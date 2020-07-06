@@ -14,7 +14,8 @@ import SwiftUI
 class ContentViewModel {
     // MARK: - Variables
     /// Model object array
-    let contentViewItems = [ContentModel(id: 1, contentType: ComponentType.text.rawValue)]
+    let contentViewItems = [ContentModel(id: 1, contentType: ComponentType.text.rawValue),
+                            ContentModel(id: 2, contentType: ComponentType.image.rawValue)]
     
     /// Method to get destination view
     /// - Parameter type: Type of view component
@@ -23,6 +24,8 @@ class ContentViewModel {
         switch rowType {
         case .text:
             return AnyView(TextSwiftUIView())
+        case .image:
+            return AnyView(ImageListView())
         }
     }
 }
