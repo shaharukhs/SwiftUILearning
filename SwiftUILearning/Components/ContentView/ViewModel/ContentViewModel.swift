@@ -15,8 +15,10 @@ class ContentViewModel {
     // MARK: - Variables
     /// Model object array
     let contentViewItems = [ContentModel(id: 1, contentType: ComponentType.text.rawValue),
-                            ContentModel(id: 2, contentType: ComponentType.image.rawValue)]
-    
+                            ContentModel(id: 2, contentType: ComponentType.image.rawValue),
+                            ContentModel(id: 3, contentType: ComponentType.list.rawValue)]
+
+    // MARK: - User define methods
     /// Method to get destination view
     /// - Parameter type: Type of view component
     func getDestinationView(type: String) -> AnyView {
@@ -26,6 +28,8 @@ class ContentViewModel {
             return AnyView(TextSwiftUIView())
         case .image:
             return AnyView(ImageListView())
+        case .list:
+            return AnyView(ListHomeView())
         }
     }
 }

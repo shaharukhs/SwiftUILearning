@@ -12,4 +12,5 @@ import Foundation
 enum ComponentType: String {
     case text = "Text"
     case image = "Image"
+    case list = "List"
 }
