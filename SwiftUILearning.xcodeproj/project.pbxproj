@@ -12,6 +12,14 @@
 		384ECA6F24B30F7E00D2CDC0 /* TextAndImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384ECA6E24B30F7E00D2CDC0 /* TextAndImageView.swift */; };
 		384ECA7224B3611D00D2CDC0 /* ImageListType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384ECA7124B3611D00D2CDC0 /* ImageListType.swift */; };
 		384ECA7524B3614E00D2CDC0 /* ImageListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384ECA7424B3614E00D2CDC0 /* ImageListViewModel.swift */; };
+		38A439C524BC330B00CA4CEB /* ListEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A439C424BC330B00CA4CEB /* ListEnum.swift */; };
+		38A439C724BC336100CA4CEB /* ListHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A439C624BC336100CA4CEB /* ListHomeView.swift */; };
+		38A439CA24BC337E00CA4CEB /* ListTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A439C924BC337E00CA4CEB /* ListTypeView.swift */; };
+		38A439CC24BC339900CA4CEB /* HomeScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A439CB24BC339900CA4CEB /* HomeScrollView.swift */; };
+		38A439CE24BC33AD00CA4CEB /* ListHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A439CD24BC33AD00CA4CEB /* ListHomeViewModel.swift */; };
+		38A439D124BC4C2F00CA4CEB /* ListHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A439D024BC4C2F00CA4CEB /* ListHomeModel.swift */; };
+		38A439D324BC4F6200CA4CEB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 38A439D224BC4F6200CA4CEB /* README.md */; };
+		38A439D624BC72B500CA4CEB /* SocialMediaListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A439D524BC72B500CA4CEB /* SocialMediaListRow.swift */; };
 		38D25C5024A9D26B00AD202F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D25C4F24A9D26B00AD202F /* AppDelegate.swift */; };
 		38D25C5224A9D26B00AD202F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D25C5124A9D26B00AD202F /* SceneDelegate.swift */; };
 		38D25C5524A9D26B00AD202F /* SwiftUILearning.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38D25C5324A9D26B00AD202F /* SwiftUILearning.xcdatamodeld */; };
@@ -50,6 +58,14 @@
 		384ECA6E24B30F7E00D2CDC0 /* TextAndImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAndImageView.swift; sourceTree = "<group>"; };
 		384ECA7124B3611D00D2CDC0 /* ImageListType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListType.swift; sourceTree = "<group>"; };
 		384ECA7424B3614E00D2CDC0 /* ImageListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListViewModel.swift; sourceTree = "<group>"; };
+		38A439C424BC330B00CA4CEB /* ListEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEnum.swift; sourceTree = "<group>"; };
+		38A439C624BC336100CA4CEB /* ListHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHomeView.swift; sourceTree = "<group>"; };
+		38A439C924BC337E00CA4CEB /* ListTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTypeView.swift; sourceTree = "<group>"; };
+		38A439CB24BC339900CA4CEB /* HomeScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScrollView.swift; sourceTree = "<group>"; };
+		38A439CD24BC33AD00CA4CEB /* ListHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHomeViewModel.swift; sourceTree = "<group>"; };
+		38A439D024BC4C2F00CA4CEB /* ListHomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHomeModel.swift; sourceTree = "<group>"; };
+		38A439D224BC4F6200CA4CEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		38A439D524BC72B500CA4CEB /* SocialMediaListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaListRow.swift; sourceTree = "<group>"; };
 		38D25C4C24A9D26B00AD202F /* SwiftUILearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D25C4F24A9D26B00AD202F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38D25C5124A9D26B00AD202F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,14 +112,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		384ECA6624B3057300D2CDC0 /* ImageView */ = {
+		384ECA6624B3057300D2CDC0 /* ImageView - Week 2 */ = {
 			isa = PBXGroup;
 			children = (
 				384ECA7024B3610100D2CDC0 /* Enum */,
 				384ECA6724B3058600D2CDC0 /* View */,
 				384ECA7324B3613600D2CDC0 /* ViewModel */,
 			);
-			path = ImageView;
+			path = "ImageView - Week 2";
 			sourceTree = "<group>";
 		};
 		384ECA6724B3058600D2CDC0 /* View */ = {
@@ -140,6 +156,68 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		38A439C024BC32BF00CA4CEB /* List - Week 3 */ = {
+			isa = PBXGroup;
+			children = (
+				38A439C124BC32D600CA4CEB /* Enum */,
+				38A439CF24BC4C1600CA4CEB /* Model */,
+				38A439C224BC32DE00CA4CEB /* View */,
+				38A439C324BC32E300CA4CEB /* ViewModel */,
+			);
+			path = "List - Week 3";
+			sourceTree = "<group>";
+		};
+		38A439C124BC32D600CA4CEB /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				38A439C424BC330B00CA4CEB /* ListEnum.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		38A439C224BC32DE00CA4CEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				38A439C824BC336600CA4CEB /* SubViews */,
+				38A439C624BC336100CA4CEB /* ListHomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		38A439C324BC32E300CA4CEB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				38A439CD24BC33AD00CA4CEB /* ListHomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		38A439C824BC336600CA4CEB /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				38A439D424BC72AA00CA4CEB /* Rows */,
+				38A439C924BC337E00CA4CEB /* ListTypeView.swift */,
+				38A439CB24BC339900CA4CEB /* HomeScrollView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		38A439CF24BC4C1600CA4CEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				38A439D024BC4C2F00CA4CEB /* ListHomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		38A439D424BC72AA00CA4CEB /* Rows */ = {
+			isa = PBXGroup;
+			children = (
+				38A439D524BC72B500CA4CEB /* SocialMediaListRow.swift */,
+			);
+			path = Rows;
+			sourceTree = "<group>";
+		};
 		38D25C4324A9D26B00AD202F = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +241,7 @@
 		38D25C4E24A9D26B00AD202F /* SwiftUILearning */ = {
 			isa = PBXGroup;
 			children = (
+				38A439D224BC4F6200CA4CEB /* README.md */,
 				38D25C8324A9D29000AD202F /* Components */,
 				38D25C8224A9D28300AD202F /* AppDelegate */,
 				38D25C5824A9D26E00AD202F /* Assets.xcassets */,
@@ -213,18 +292,19 @@
 			isa = PBXGroup;
 			children = (
 				38D25C8724A9D62900AD202F /* ContentView */,
-				38D25C8424A9D29B00AD202F /* Text */,
-				384ECA6624B3057300D2CDC0 /* ImageView */,
+				38D25C8424A9D29B00AD202F /* Text - Week 1 */,
+				384ECA6624B3057300D2CDC0 /* ImageView - Week 2 */,
+				38A439C024BC32BF00CA4CEB /* List - Week 3 */,
 			);
 			path = Components;
 			sourceTree = "<group>";
 		};
-		38D25C8424A9D29B00AD202F /* Text */ = {
+		38D25C8424A9D29B00AD202F /* Text - Week 1 */ = {
 			isa = PBXGroup;
 			children = (
 				38D25C8524A9D2E600AD202F /* TextSwiftUIView.swift */,
 			);
-			path = Text;
+			path = "Text - Week 1";
 			sourceTree = "<group>";
 		};
 		38D25C8724A9D62900AD202F /* ContentView */ = {
@@ -376,6 +456,7 @@
 			files = (
 				38D25C5F24A9D26E00AD202F /* LaunchScreen.storyboard in Resources */,
 				38D25C5C24A9D26E00AD202F /* Preview Assets.xcassets in Resources */,
+				38A439D324BC4F6200CA4CEB /* README.md in Resources */,
 				38D25C5924A9D26E00AD202F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,16 +482,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38A439C524BC330B00CA4CEB /* ListEnum.swift in Sources */,
+				38A439CC24BC339900CA4CEB /* HomeScrollView.swift in Sources */,
 				38D25C5524A9D26B00AD202F /* SwiftUILearning.xcdatamodeld in Sources */,
 				384ECA7524B3614E00D2CDC0 /* ImageListViewModel.swift in Sources */,
 				38D25C8624A9D2E600AD202F /* TextSwiftUIView.swift in Sources */,
 				384ECA6924B3060F00D2CDC0 /* ImageListView.swift in Sources */,
+				38A439D624BC72B500CA4CEB /* SocialMediaListRow.swift in Sources */,
 				38D25C8B24A9D65400AD202F /* ContentViewModel.swift in Sources */,
+				38A439CE24BC33AD00CA4CEB /* ListHomeViewModel.swift in Sources */,
+				38A439CA24BC337E00CA4CEB /* ListTypeView.swift in Sources */,
 				384ECA6C24B30F6A00D2CDC0 /* ImageRowView.swift in Sources */,
 				38D25C5024A9D26B00AD202F /* AppDelegate.swift in Sources */,
+				38A439D124BC4C2F00CA4CEB /* ListHomeModel.swift in Sources */,
 				38D25C9124A9D81700AD202F /* ContentEnum.swift in Sources */,
 				38D25C5724A9D26B00AD202F /* ContentView.swift in Sources */,
 				38D25C8E24A9D75E00AD202F /* ContentModel.swift in Sources */,
+				38A439C724BC336100CA4CEB /* ListHomeView.swift in Sources */,
 				38D25C5224A9D26B00AD202F /* SceneDelegate.swift in Sources */,
 				384ECA6F24B30F7E00D2CDC0 /* TextAndImageView.swift in Sources */,
 				384ECA7224B3611D00D2CDC0 /* ImageListType.swift in Sources */,

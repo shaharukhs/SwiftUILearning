@@ -23,7 +23,7 @@ struct ImageListView: View {
                     Text("\(item.contentType ?? "")")
                 }
             }
-        }
+        }.listStyle(GroupedListStyle())
          .navigationBarTitle("SwiftUI Images")
     }
 }

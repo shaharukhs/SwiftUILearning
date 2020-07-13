@@ -25,6 +25,7 @@ struct ContentView: View {
                     }
                 }
             }
+            .listStyle(GroupedListStyle())
             .navigationBarTitle("SwiftUI Learning")
         }
     }
