@@ -12,6 +12,13 @@
 		384ECA6F24B30F7E00D2CDC0 /* TextAndImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384ECA6E24B30F7E00D2CDC0 /* TextAndImageView.swift */; };
 		384ECA7224B3611D00D2CDC0 /* ImageListType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384ECA7124B3611D00D2CDC0 /* ImageListType.swift */; };
 		384ECA7524B3614E00D2CDC0 /* ImageListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384ECA7424B3614E00D2CDC0 /* ImageListViewModel.swift */; };
+		386B8C2024C717AA00162409 /* SegmentControllerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386B8C1F24C717AA00162409 /* SegmentControllerModel.swift */; };
+		386B8C2224C717CA00162409 /* SegmentControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386B8C2124C717CA00162409 /* SegmentControllerView.swift */; };
+		386B8C2424C717DD00162409 /* SegmentControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386B8C2324C717DD00162409 /* SegmentControllerViewModel.swift */; };
+		386B8C2724C718C400162409 /* SegmentControllerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386B8C2624C718C400162409 /* SegmentControllerListView.swift */; };
+		386B8C2924C718D100162409 /* SegmentControllerScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386B8C2824C718D100162409 /* SegmentControllerScrollView.swift */; };
+		3890EFCB24C9C4FE004EB658 /* TeamDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3890EFCA24C9C4FE004EB658 /* TeamDetailsView.swift */; };
+		3891E56324C80EAD00D4C661 /* TeamListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3891E56224C80EAD00D4C661 /* TeamListRow.swift */; };
 		38A439C524BC330B00CA4CEB /* ListEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A439C424BC330B00CA4CEB /* ListEnum.swift */; };
 		38A439C724BC336100CA4CEB /* ListHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A439C624BC336100CA4CEB /* ListHomeView.swift */; };
 		38A439CA24BC337E00CA4CEB /* ListTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A439C924BC337E00CA4CEB /* ListTypeView.swift */; };
@@ -58,6 +65,13 @@
 		384ECA6E24B30F7E00D2CDC0 /* TextAndImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAndImageView.swift; sourceTree = "<group>"; };
 		384ECA7124B3611D00D2CDC0 /* ImageListType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListType.swift; sourceTree = "<group>"; };
 		384ECA7424B3614E00D2CDC0 /* ImageListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListViewModel.swift; sourceTree = "<group>"; };
+		386B8C1F24C717AA00162409 /* SegmentControllerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControllerModel.swift; sourceTree = "<group>"; };
+		386B8C2124C717CA00162409 /* SegmentControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControllerView.swift; sourceTree = "<group>"; };
+		386B8C2324C717DD00162409 /* SegmentControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControllerViewModel.swift; sourceTree = "<group>"; };
+		386B8C2624C718C400162409 /* SegmentControllerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControllerListView.swift; sourceTree = "<group>"; };
+		386B8C2824C718D100162409 /* SegmentControllerScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControllerScrollView.swift; sourceTree = "<group>"; };
+		3890EFCA24C9C4FE004EB658 /* TeamDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailsView.swift; sourceTree = "<group>"; };
+		3891E56224C80EAD00D4C661 /* TeamListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListRow.swift; sourceTree = "<group>"; };
 		38A439C424BC330B00CA4CEB /* ListEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEnum.swift; sourceTree = "<group>"; };
 		38A439C624BC336100CA4CEB /* ListHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHomeView.swift; sourceTree = "<group>"; };
 		38A439C924BC337E00CA4CEB /* ListTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTypeView.swift; sourceTree = "<group>"; };
@@ -154,6 +168,60 @@
 				384ECA7424B3614E00D2CDC0 /* ImageListViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		386B8C1B24C7174A00162409 /* SegmentController - Week 4 */ = {
+			isa = PBXGroup;
+			children = (
+				386B8C1C24C7177100162409 /* Model */,
+				386B8C1D24C7178600162409 /* View */,
+				386B8C1E24C7178C00162409 /* ViewModel */,
+			);
+			path = "SegmentController - Week 4";
+			sourceTree = "<group>";
+		};
+		386B8C1C24C7177100162409 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				386B8C1F24C717AA00162409 /* SegmentControllerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		386B8C1D24C7178600162409 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				386B8C2124C717CA00162409 /* SegmentControllerView.swift */,
+				386B8C2524C718AB00162409 /* SubViews */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		386B8C1E24C7178C00162409 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				386B8C2324C717DD00162409 /* SegmentControllerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		386B8C2524C718AB00162409 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				3891E56124C80E8900D4C661 /* Rows */,
+				386B8C2624C718C400162409 /* SegmentControllerListView.swift */,
+				386B8C2824C718D100162409 /* SegmentControllerScrollView.swift */,
+				3890EFCA24C9C4FE004EB658 /* TeamDetailsView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		3891E56124C80E8900D4C661 /* Rows */ = {
+			isa = PBXGroup;
+			children = (
+				3891E56224C80EAD00D4C661 /* TeamListRow.swift */,
+			);
+			path = Rows;
 			sourceTree = "<group>";
 		};
 		38A439C024BC32BF00CA4CEB /* List - Week 3 */ = {
@@ -295,6 +363,7 @@
 				38D25C8424A9D29B00AD202F /* Text - Week 1 */,
 				384ECA6624B3057300D2CDC0 /* ImageView - Week 2 */,
 				38A439C024BC32BF00CA4CEB /* List - Week 3 */,
+				386B8C1B24C7174A00162409 /* SegmentController - Week 4 */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -485,10 +554,14 @@
 				38A439C524BC330B00CA4CEB /* ListEnum.swift in Sources */,
 				38A439CC24BC339900CA4CEB /* HomeScrollView.swift in Sources */,
 				38D25C5524A9D26B00AD202F /* SwiftUILearning.xcdatamodeld in Sources */,
+				386B8C2424C717DD00162409 /* SegmentControllerViewModel.swift in Sources */,
 				384ECA7524B3614E00D2CDC0 /* ImageListViewModel.swift in Sources */,
 				38D25C8624A9D2E600AD202F /* TextSwiftUIView.swift in Sources */,
 				384ECA6924B3060F00D2CDC0 /* ImageListView.swift in Sources */,
+				386B8C2024C717AA00162409 /* SegmentControllerModel.swift in Sources */,
+				3890EFCB24C9C4FE004EB658 /* TeamDetailsView.swift in Sources */,
 				38A439D624BC72B500CA4CEB /* SocialMediaListRow.swift in Sources */,
+				3891E56324C80EAD00D4C661 /* TeamListRow.swift in Sources */,
 				38D25C8B24A9D65400AD202F /* ContentViewModel.swift in Sources */,
 				38A439CE24BC33AD00CA4CEB /* ListHomeViewModel.swift in Sources */,
 				38A439CA24BC337E00CA4CEB /* ListTypeView.swift in Sources */,
@@ -496,11 +569,14 @@
 				38D25C5024A9D26B00AD202F /* AppDelegate.swift in Sources */,
 				38A439D124BC4C2F00CA4CEB /* ListHomeModel.swift in Sources */,
 				38D25C9124A9D81700AD202F /* ContentEnum.swift in Sources */,
+				386B8C2724C718C400162409 /* SegmentControllerListView.swift in Sources */,
+				386B8C2924C718D100162409 /* SegmentControllerScrollView.swift in Sources */,
 				38D25C5724A9D26B00AD202F /* ContentView.swift in Sources */,
 				38D25C8E24A9D75E00AD202F /* ContentModel.swift in Sources */,
 				38A439C724BC336100CA4CEB /* ListHomeView.swift in Sources */,
 				38D25C5224A9D26B00AD202F /* SceneDelegate.swift in Sources */,
 				384ECA6F24B30F7E00D2CDC0 /* TextAndImageView.swift in Sources */,
+				386B8C2224C717CA00162409 /* SegmentControllerView.swift in Sources */,
 				384ECA7224B3611D00D2CDC0 /* ImageListType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

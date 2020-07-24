@@ -13,4 +13,5 @@ enum ComponentType: String {
     case text = "Text"
     case image = "Image"
     case list = "List"
+    case segmentControll = "Segment Controll"
 }

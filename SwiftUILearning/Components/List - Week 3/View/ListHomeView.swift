@@ -24,7 +24,7 @@ struct ListHomeView: View {
                 }
             }
         }.listStyle(GroupedListStyle())
-         .navigationBarTitle("SwiftUI List")
+            .navigationBarTitle("SwiftUI List", displayMode: .inline)
     }
 }
 

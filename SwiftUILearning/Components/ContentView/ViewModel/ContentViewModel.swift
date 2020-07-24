@@ -16,7 +16,8 @@ class ContentViewModel {
     /// Model object array
     let contentViewItems = [ContentModel(id: 1, contentType: ComponentType.text.rawValue),
                             ContentModel(id: 2, contentType: ComponentType.image.rawValue),
-                            ContentModel(id: 3, contentType: ComponentType.list.rawValue)]
+                            ContentModel(id: 3, contentType: ComponentType.list.rawValue),
+                            ContentModel(id: 4, contentType: ComponentType.segmentControll.rawValue)]
 
     // MARK: - User define methods
     /// Method to get destination view
@@ -30,6 +31,8 @@ class ContentViewModel {
             return AnyView(ImageListView())
         case .list:
             return AnyView(ListHomeView())
+        case .segmentControll:
+            return AnyView(SegmentControllerView())
         }
     }
 }
