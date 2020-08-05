@@ -10,7 +10,6 @@ import Foundation
 
 // MARK: - String extension
 extension String {
-    
     /// Func to check password is valid or not
     /// - Returns: bool value
     func isValidPassword() -> Bool {
@@ -18,7 +17,7 @@ extension String {
         // least one digit
         // least one lowercase
         // least one symbol
-        //  min 8 characters total
+        // min 8 characters total
         let password = self.trimmingCharacters(in: CharacterSet.whitespaces)
         let passwordRegx = "^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&<>*~:`-]).{8,}$"
         let passwordCheck = NSPredicate(format: "SELF MATCHES %@",passwordRegx)

@@ -18,7 +18,8 @@ class ContentViewModel {
                             ContentModel(id: 2, contentType: ComponentType.image.rawValue),
                             ContentModel(id: 3, contentType: ComponentType.list.rawValue),
                             ContentModel(id: 4, contentType: ComponentType.segmentControll.rawValue),
-                            ContentModel(id: 5, contentType: ComponentType.login.rawValue)]
+                            ContentModel(id: 5, contentType: ComponentType.login.rawValue),
+                            ContentModel(id: 6, contentType: ComponentType.movieDetail.rawValue)]
 
     // MARK: - User define methods
     /// Method to get destination view
@@ -36,6 +37,8 @@ class ContentViewModel {
             return AnyView(SegmentControllerView())
         case .login:
             return AnyView(LoginView())
+        case .movieDetail:
+            return AnyView(MovieDetailView(movieDetailModel: DummyMovieDetailData.model))
         }
     }
 }

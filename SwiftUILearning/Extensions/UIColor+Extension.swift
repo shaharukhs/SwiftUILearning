@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+// MARK: - Color extension
 extension Color {
     static let primaryLoginColor = Color("GoldColor")
     
