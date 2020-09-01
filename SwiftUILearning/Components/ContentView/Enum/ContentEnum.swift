@@ -16,4 +16,5 @@ enum ComponentType: String {
     case segmentControll = "Segment Controll"
     case login = "Login"
     case movieDetail = "Movie Detail"
+    case movieList = "Movie List using Combine"
 }
