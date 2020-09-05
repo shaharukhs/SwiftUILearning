@@ -48,6 +48,8 @@
 		388B9B3824D01B3F00E97320 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388B9B3724D01B3F00E97320 /* Constants.swift */; };
 		3890EFCB24C9C4FE004EB658 /* TeamDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3890EFCA24C9C4FE004EB658 /* TeamDetailsView.swift */; };
 		3891E56324C80EAD00D4C661 /* TeamListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3891E56224C80EAD00D4C661 /* TeamListRow.swift */; };
+		389F912325038AC300352DFE /* PickerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389F912225038AC300352DFE /* PickerListView.swift */; };
+		389F9128250390A100352DFE /* PickerEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389F9127250390A100352DFE /* PickerEnums.swift */; };
 		38A439C524BC330B00CA4CEB /* ListEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A439C424BC330B00CA4CEB /* ListEnum.swift */; };
 		38A439C724BC336100CA4CEB /* ListHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A439C624BC336100CA4CEB /* ListHomeView.swift */; };
 		38A439CA24BC337E00CA4CEB /* ListTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A439C924BC337E00CA4CEB /* ListTypeView.swift */; };
@@ -148,6 +150,8 @@
 		388B9B3724D01B3F00E97320 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3890EFCA24C9C4FE004EB658 /* TeamDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailsView.swift; sourceTree = "<group>"; };
 		3891E56224C80EAD00D4C661 /* TeamListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListRow.swift; sourceTree = "<group>"; };
+		389F912225038AC300352DFE /* PickerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerListView.swift; sourceTree = "<group>"; };
+		389F9127250390A100352DFE /* PickerEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerEnums.swift; sourceTree = "<group>"; };
 		38A439C424BC330B00CA4CEB /* ListEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEnum.swift; sourceTree = "<group>"; };
 		38A439C624BC336100CA4CEB /* ListHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHomeView.swift; sourceTree = "<group>"; };
 		38A439C924BC337E00CA4CEB /* ListTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTypeView.swift; sourceTree = "<group>"; };
@@ -443,6 +447,31 @@
 			path = Rows;
 			sourceTree = "<group>";
 		};
+		389F911D25038A7000352DFE /* Picker - Week 8 */ = {
+			isa = PBXGroup;
+			children = (
+				389F911E25038A8000352DFE /* Enums */,
+				389F912025038A8B00352DFE /* View */,
+			);
+			path = "Picker - Week 8";
+			sourceTree = "<group>";
+		};
+		389F911E25038A8000352DFE /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				389F9127250390A100352DFE /* PickerEnums.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		389F912025038A8B00352DFE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				389F912225038AC300352DFE /* PickerListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		38A439C024BC32BF00CA4CEB /* List - Week 3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -589,6 +618,7 @@
 				388B9B1724CFF9EE00E97320 /* LoginView - Week 5 */,
 				387FF9BD24D7EFAC001BF8E3 /* MovieAppUI - Week 6 */,
 				38DEA74324FE5DA60081E450 /* Combine - Week 7 */,
+				389F911D25038A7000352DFE /* Picker - Week 8 */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -897,11 +927,13 @@
 				387FF9C424D7F036001BF8E3 /* MovieDetailView.swift in Sources */,
 				387FF9E024D851E5001BF8E3 /* EnvironmentValues+ImageCache.swift in Sources */,
 				384ECA7524B3614E00D2CDC0 /* ImageListViewModel.swift in Sources */,
+				389F912325038AC300352DFE /* PickerListView.swift in Sources */,
 				388B9B3824D01B3F00E97320 /* Constants.swift in Sources */,
 				38D25C8624A9D2E600AD202F /* TextSwiftUIView.swift in Sources */,
 				384ECA6924B3060F00D2CDC0 /* ImageListView.swift in Sources */,
 				38E0D3A024D1AEAD0010C878 /* SecureTextFieldView.swift in Sources */,
 				387FF9D524D81B50001BF8E3 /* MovieDetailDescriptionView.swift in Sources */,
+				389F9128250390A100352DFE /* PickerEnums.swift in Sources */,
 				38DEA74F24FE626B0081E450 /* MovieListView.swift in Sources */,
 				386B8C2024C717AA00162409 /* SegmentControllerModel.swift in Sources */,
 				3890EFCB24C9C4FE004EB658 /* TeamDetailsView.swift in Sources */,
