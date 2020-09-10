@@ -58,7 +58,12 @@
 		38A439D124BC4C2F00CA4CEB /* ListHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A439D024BC4C2F00CA4CEB /* ListHomeModel.swift */; };
 		38A439D324BC4F6200CA4CEB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 38A439D224BC4F6200CA4CEB /* README.md */; };
 		38A439D624BC72B500CA4CEB /* SocialMediaListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A439D524BC72B500CA4CEB /* SocialMediaListRow.swift */; };
+		38BC2EA225063A28000E44B1 /* ReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC2EA125063A28000E44B1 /* ReaderView.swift */; };
+		38BC2EA525063A8E000E44B1 /* ReaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC2EA425063A8E000E44B1 /* ReaderViewModel.swift */; };
+		38BC2EA825063AB2000E44B1 /* ReaderEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC2EA725063AB2000E44B1 /* ReaderEnums.swift */; };
+		38BC2EAA25063CA1000E44B1 /* StorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BC2EA925063CA1000E44B1 /* StorageView.swift */; };
 		38C0CC9E24D1B44E00A6192C /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C0CC9D24D1B44E00A6192C /* ForgotPasswordView.swift */; };
+		38C5504A2507B28200D8DBF6 /* GeometryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C550492507B28200D8DBF6 /* GeometryView.swift */; };
 		38D25C5024A9D26B00AD202F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D25C4F24A9D26B00AD202F /* AppDelegate.swift */; };
 		38D25C5224A9D26B00AD202F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D25C5124A9D26B00AD202F /* SceneDelegate.swift */; };
 		38D25C5524A9D26B00AD202F /* SwiftUILearning.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38D25C5324A9D26B00AD202F /* SwiftUILearning.xcdatamodeld */; };
@@ -160,7 +165,12 @@
 		38A439D024BC4C2F00CA4CEB /* ListHomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHomeModel.swift; sourceTree = "<group>"; };
 		38A439D224BC4F6200CA4CEB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		38A439D524BC72B500CA4CEB /* SocialMediaListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaListRow.swift; sourceTree = "<group>"; };
+		38BC2EA125063A28000E44B1 /* ReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderView.swift; sourceTree = "<group>"; };
+		38BC2EA425063A8E000E44B1 /* ReaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderViewModel.swift; sourceTree = "<group>"; };
+		38BC2EA725063AB2000E44B1 /* ReaderEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderEnums.swift; sourceTree = "<group>"; };
+		38BC2EA925063CA1000E44B1 /* StorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageView.swift; sourceTree = "<group>"; };
 		38C0CC9D24D1B44E00A6192C /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		38C550492507B28200D8DBF6 /* GeometryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryView.swift; sourceTree = "<group>"; };
 		38D25C4C24A9D26B00AD202F /* SwiftUILearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D25C4F24A9D26B00AD202F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38D25C5124A9D26B00AD202F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -534,6 +544,50 @@
 			path = Rows;
 			sourceTree = "<group>";
 		};
+		38BC2E9E25063990000E44B1 /* Geometry - Week 9 */ = {
+			isa = PBXGroup;
+			children = (
+				38BC2EA625063AA0000E44B1 /* Enums */,
+				38BC2EA325063A7E000E44B1 /* ViewModel */,
+				38BC2E9F250639A6000E44B1 /* View */,
+			);
+			path = "Geometry - Week 9";
+			sourceTree = "<group>";
+		};
+		38BC2E9F250639A6000E44B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				38BC2EA0250639AD000E44B1 /* Storage */,
+				38BC2EA125063A28000E44B1 /* ReaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		38BC2EA0250639AD000E44B1 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				38BC2EA925063CA1000E44B1 /* StorageView.swift */,
+				38C550492507B28200D8DBF6 /* GeometryView.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		38BC2EA325063A7E000E44B1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				38BC2EA425063A8E000E44B1 /* ReaderViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		38BC2EA625063AA0000E44B1 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				38BC2EA725063AB2000E44B1 /* ReaderEnums.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 		38D25C4324A9D26B00AD202F = {
 			isa = PBXGroup;
 			children = (
@@ -619,6 +673,7 @@
 				387FF9BD24D7EFAC001BF8E3 /* MovieAppUI - Week 6 */,
 				38DEA74324FE5DA60081E450 /* Combine - Week 7 */,
 				389F911D25038A7000352DFE /* Picker - Week 8 */,
+				38BC2E9E25063990000E44B1 /* Geometry - Week 9 */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -940,14 +995,18 @@
 				38A439D624BC72B500CA4CEB /* SocialMediaListRow.swift in Sources */,
 				3891E56324C80EAD00D4C661 /* TeamListRow.swift in Sources */,
 				387FF9CF24D7FEB4001BF8E3 /* MovieRatingView.swift in Sources */,
+				38BC2EA225063A28000E44B1 /* ReaderView.swift in Sources */,
 				38D25C8B24A9D65400AD202F /* ContentViewModel.swift in Sources */,
+				38BC2EAA25063CA1000E44B1 /* StorageView.swift in Sources */,
 				38DEA74624FE5F040081E450 /* PopularMovieModel.swift in Sources */,
 				38A439CE24BC33AD00CA4CEB /* ListHomeViewModel.swift in Sources */,
 				38A439CA24BC337E00CA4CEB /* ListTypeView.swift in Sources */,
 				38C0CC9E24D1B44E00A6192C /* ForgotPasswordView.swift in Sources */,
+				38BC2EA825063AB2000E44B1 /* ReaderEnums.swift in Sources */,
 				387FF9DA24D85193001BF8E3 /* AsyncImage.swift in Sources */,
 				38DEA74C24FE61C40081E450 /* MovieListObservable.swift in Sources */,
 				384ECA6C24B30F6A00D2CDC0 /* ImageRowView.swift in Sources */,
+				38C5504A2507B28200D8DBF6 /* GeometryView.swift in Sources */,
 				38D25C5024A9D26B00AD202F /* AppDelegate.swift in Sources */,
 				387FF9C224D7F02B001BF8E3 /* MovieDetailModel.swift in Sources */,
 				387FF9D124D80958001BF8E3 /* ImageAndRatingView.swift in Sources */,
@@ -965,6 +1024,7 @@
 				38D25C8E24A9D75E00AD202F /* ContentModel.swift in Sources */,
 				387FF9DC24D851AC001BF8E3 /* ImageCache.swift in Sources */,
 				38DEA74A24FE5F590081E450 /* Webservice.swift in Sources */,
+				38BC2EA525063A8E000E44B1 /* ReaderViewModel.swift in Sources */,
 				388B9B1C24CFFA2900E97320 /* LoginView.swift in Sources */,
 				38A439C724BC336100CA4CEB /* ListHomeView.swift in Sources */,
 				38E0D3A724D1B1E30010C878 /* LoginModel.swift in Sources */,

@@ -18,4 +18,5 @@ enum ComponentType: String {
     case movieDetail = "Movie Detail"
     case movieList = "Movie List using Combine"
     case picker = "Picker List View"
+    case reader = "Reader View"
 }

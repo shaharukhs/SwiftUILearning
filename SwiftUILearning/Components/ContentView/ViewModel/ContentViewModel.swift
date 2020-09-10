@@ -21,7 +21,8 @@ class ContentViewModel {
                             ContentModel(id: 5, contentType: ComponentType.login.rawValue),
                             ContentModel(id: 6, contentType: ComponentType.movieDetail.rawValue),
                             ContentModel(id: 7, contentType: ComponentType.movieList.rawValue),
-                            ContentModel(id: 8, contentType: ComponentType.picker.rawValue)]
+                            ContentModel(id: 8, contentType: ComponentType.picker.rawValue),
+                            ContentModel(id: 9, contentType: ComponentType.reader.rawValue)]
 
     // MARK: - User define methods
     /// Method to get destination view
@@ -45,6 +46,8 @@ class ContentViewModel {
             return AnyView(MovieListView(viewModel: MovieListObservable()))
         case .picker:
             return AnyView(PickerListView())
+        case .reader:
+            return AnyView(ReaderView())
         }
     }
 }
